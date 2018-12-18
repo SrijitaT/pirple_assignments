@@ -1,5 +1,5 @@
-var handlers=require("./handlers");
-var router={
+const handlers=require("./handlers");
+const router={
 hello:handlers.hello,
 notFound:handlers.notFound
 }

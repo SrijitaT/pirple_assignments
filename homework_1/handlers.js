@@ -1,4 +1,4 @@
-var handlers={
+const handlers={
 hello:function(data,callback){
 callback(406,{'message':'Hey,Welcome to my website!'});
 },
